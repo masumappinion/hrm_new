@@ -1,6 +1,6 @@
 
 import 'package:get/get_navigation/src/routes/get_route.dart';
-import '../screen/auth_main_screen.dart';
+import '../screen/auth/auth_main_screen.dart';
 
 class Routes{
   static final routes = [

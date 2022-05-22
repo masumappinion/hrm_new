@@ -5,6 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'component/AuthScreenComponent.dart';
 
+
 class AuthScreen extends StatefulWidget {
   static const routeName = '/auth_screen';
 

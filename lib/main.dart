@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:hrm_new/screen/auth_main_screen.dart';
+import 'package:hrm_new/screen/auth/auth_main_screen.dart';
 import 'package:hrm_new/util/theme.dart';
 
 void main() {
