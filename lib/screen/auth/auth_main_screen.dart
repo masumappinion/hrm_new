@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:hrm_new/color.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -45,7 +46,6 @@ class AuthScreenState extends State<AuthScreen> {
                       child: SafeArea(
                         child: Column(
                           children: [
-
                             const Expanded(flex: 2, child: SizedBox()),
                             authHeader(),
                             const Expanded(flex: 3, child: SizedBox()),
@@ -105,7 +105,7 @@ class AuthScreenState extends State<AuthScreen> {
                                       backgroundColor: MaterialStateProperty.all<Color>(deepBlue),
                                       shape: MaterialStateProperty.all<RoundedRectangleBorder>(
                                           RoundedRectangleBorder(
-                                              borderRadius: BorderRadius.circular(30.0),
+                                              borderRadius: BorderRadius.circular(30.0.r),
 
                                           ),
                                       )
